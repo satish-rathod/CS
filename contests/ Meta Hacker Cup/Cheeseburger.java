@@ -23,5 +23,6 @@ public class Cheeseburger {
                 System.out.println("Case #"+i+":"+" NO");
             }
         }
+        sc.close();
     }
 }

@@ -1,7 +1,7 @@
 public class traping_water_2 {
 
     class Solution {
-        public static int index(int[] arr) {
+        public int index(int[] arr) {
             int max = arr[0];
             int index = -1;
             for (int i = 0; i < arr.length; i++) {
