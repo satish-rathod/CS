@@ -19,8 +19,8 @@ public class traping_water {
        // System.out.println(Arrays.toString(right));
         for (int i = 0; i < n; i++) {
             water += Math.min(left[i], right[i]) - arr[i];
-            System.out.println(Math.min(left[i], right[i]) - arr[i]);
-            System.out.println(water+" "+left[i]+" "+right[i]);
+          //  System.out.println(Math.min(left[i], right[i]) - arr[i]);
+           // System.out.println(water+" "+left[i]+" "+right[i]);
         }
         return water;
     }
