@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hanoi_toower",
+            "request": "launch",
+            "mainClass": "hanoi_toower",
+            "projectName": "CS_8b9bf494"
+        },
+        {
+            "type": "java",
             "name": "elements_of_array",
             "request": "launch",
             "mainClass": "elements_of_array",
