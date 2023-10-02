@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "one_to_n",
+            "request": "launch",
+            "mainClass": "Course.T_one.ICP.practice.one_to_n",
+            "projectName": "CS_8b9bf494"
+        },
+        {
+            "type": "java",
             "name": "hanoi_toower",
             "request": "launch",
             "mainClass": "hanoi_toower",

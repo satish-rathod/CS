@@ -1,18 +1,18 @@
 
 public class power {
     
-    public static int power(int num, int power,int mod)
+    public static int pow(int A, int B,int C)
     {
-        if(power==0)
+        if(B==0)
         {
             return 1;
         }
-        long small_ans = power(num,power/2,mod);
-        long ans = small_ans*small_ans;
-        if(power%2==1)
+        long small_ans = pow(A,B/2,C);
+        long ans = (small_ans*small_ans)%C;
+        if(B%2==1)
         {
-            ans = ans*num;
+            ans = (ans*A)%C;
         }
-        return (int)ans%mod;
+        return (int)ans%C;
     }
 }

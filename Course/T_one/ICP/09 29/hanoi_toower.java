@@ -19,4 +19,20 @@ public class hanoi_toower {
         
         tower(n, 'a', 'c', 'b');
     }
+
+    public static int[][] TOH(int A)
+    {
+        int arr[][] = new int[(int)Math.pow(2, A)-1][2];
+        
+        if(A==0)
+        {
+            return arr;
+        }
+        TOH(A-1);
+        arr[0][A]=1;
+        arr[0][1]=3;
+        arr[0][2]=1;
+        TOH(A-1);
+        
+    }
 }
