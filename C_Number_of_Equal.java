@@ -3,6 +3,7 @@ import java.util.Scanner;
 class C_Number_of_Equal {
 
     public static long equal_num(int A[], int B[]) {
+        
         int i = 0, j = 0;
         long ans = 0;
 
