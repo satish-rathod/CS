@@ -19,7 +19,7 @@ class B_Prefix_and_Suffix {
         }
         if (pre.equals(S)) {
             return 1;
-        }s
+        }
         if (suf.equals(S)) {
             return 2;
         }

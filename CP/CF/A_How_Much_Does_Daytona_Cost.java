@@ -43,6 +43,7 @@ class A_How_Much_Does_Daytona_Cost {
                 System.out.println("NO");
             }
         }
+        scn.close();
     }    
 
 }

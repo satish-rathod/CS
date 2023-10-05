@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lmr_merge",
+            "request": "launch",
+            "mainClass": "lmr_merge",
+            "projectName": "CS_8b9bf494"
+        },
+        {
+            "type": "java",
+            "name": "B_Number_of_Smaller",
+            "request": "launch",
+            "mainClass": "B_Number_of_Smaller",
+            "projectName": "CS_8b9bf494"
+        },
+        {
+            "type": "java",
             "name": "one_to_n",
             "request": "launch",
             "mainClass": "Course.T_one.ICP.practice.one_to_n",

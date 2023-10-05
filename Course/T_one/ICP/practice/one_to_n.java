@@ -19,7 +19,12 @@ public class one_to_n {
     }
 
     public static void mean(int[] arr, int n) {
-        s
+        int sum=0;
+        for(int i=0;i<n;i++)
+        {
+            sum+=arr[i];
+        }
+        System.out.println(sum/n);
     }
 }
 

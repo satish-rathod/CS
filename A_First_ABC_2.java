@@ -5,7 +5,7 @@ class A_First_ABC_2 {
     public static int isPresent(int N, String S) {
     for (int i = 0; i <= N - 3; i++) {
         if (S.charAt(i) == 'A' && S.charAt(i + 1) == 'B' && S.charAt(i + 2) == 'C') {
-            return i+1s;
+            return i+1;
         }
     }
     return -1;
