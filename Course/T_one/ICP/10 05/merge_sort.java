@@ -6,7 +6,7 @@ public class merge_sort {
         int n = A.length;
         int temp[] = new int[n/2];
         int temp2[] = new int[n-n/2];
-
+ 
         if(n==1)
         {
             return A;
