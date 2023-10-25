@@ -1,1 +1,0 @@
-{"name":"Local: matrix","url":"/home/user/github_repo/CS/matrix.py","tests":[{"id":1696162200415,"input":"2\n2\n1\n2\n3\n4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/user/github_repo/CS/matrix.py","group":"local","local":true}
