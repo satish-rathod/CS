@@ -23,14 +23,12 @@ class B_Segment_with_Big_Sum {
             arr[j] += arr[j - 1];
         }
 
-        for (int i = 0; i < size; i++) {
-            for (int j = i; j < size; j++) {
-                sum = arr[j] - (i > 0 ? arr[i - 1] : 0);
+        int 
 
-                if (sum > target) {
-                    minlength = Math.min(minlength, j - i + 1);
-                }
-            }
+        for (int i = 0; i < size; i++) 
+        {
+           if
+
         }
 
         return minlength == size + 1 ? -1 : minlength; 
