@@ -1,3 +1,4 @@
+package randoom;
 import java.util.*;
 
 public class B_Two_Out_of_Three {

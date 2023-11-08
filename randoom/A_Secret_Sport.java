@@ -1,3 +1,4 @@
+package randoom;
 import java.util.Scanner;
 
 class A_Secret_Sport {

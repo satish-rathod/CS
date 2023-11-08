@@ -1,3 +1,4 @@
+package randoom;
 import java.util.Scanner;
 
 public class A_ab {
