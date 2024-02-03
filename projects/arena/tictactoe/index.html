@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <div id="winner-message" style="display: none;"></div>
+  <div id="draw-message" style="display: none;">It's a draw!</div>
+  <div class="board">
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+  </div>
+  <button id="reset-button">Reset Game</button>
+
+  <script src="script.js"></script>
+  <script>
+    const resetButton = document.getElementById("reset-button");
+    resetButton.addEventListener("click", resetGame);
+  </script>
+</body>
+</html>

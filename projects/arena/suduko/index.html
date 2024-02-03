@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sudoku Game</title>
+  <link rel="stylesheet" href="syle.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sudoku Game</h1>
+    <p>Select a difficulty level:</p>
+    <button class="level-button" onclick="startGame('easy')">Easy</button>
+    <button class="level-button" onclick="startGame('medium')">Medium</button>
+    <button class="level-button" onclick="startGame('hard')">Hard</button>
+  </div>
+
+  <script>
+    function startGame(level) {
+      // Redirect to the Sudoku game page with the selected level
+      window.location.href = `sudoku.html?level=${level}`;
+    }
+  </script>
+</body>
+</html>

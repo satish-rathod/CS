@@ -1,0 +1,71 @@
+/* Add your CSS styles here */
+.container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .level-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Additional styles for the Sudoku game page */
+  
+  .sudoku-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 2px;
+    margin-top: 20px;
+  }
+  
+  .sudoku-cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .sudoku-cell.prefilled {
+    background-color: #f2f2f2;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .sudoku-cell {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+  }
+  
+  .prefilled {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }

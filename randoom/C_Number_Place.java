@@ -1,7 +1,6 @@
 package randoom;
 import java.util.HashSet;
 import java.util.Scanner;
-import java.util.Arrays;
 class C_Number_Place {
 
     //row check

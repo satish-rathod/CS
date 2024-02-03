@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#clock{
+    height: 300px;
+    width: 300px;
+    background-color: #000;
+    border-radius: 50%;
+}
+#sec{
+    height: 140px;
+    width: 5px;
+    background-color: red;
+    top: 80px;
+    left: 148px;
+}
+#min{
+    height: 120px;
+    width: 5px;
+    background-color: #253daa;
+    top: 100px;
+    left: 148px;
+}
+#hour{
+    height: 80px;
+    width: 5px;
+    background-color: #2a772a;
+    top: 120px;
+    left: 148px;
+}

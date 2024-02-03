@@ -1,0 +1,56 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #f2f2f2;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #e6e6e6;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  #reset-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #reset-button:hover {
+    background-color: #e6e6e6;
+  }
+
+  #winner-message {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: green;
+  }
+
+  #draw-message {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: blue;
+  }

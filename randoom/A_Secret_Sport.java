@@ -21,6 +21,8 @@ class A_Secret_Sport {
             String str = sc.next();
 
             System.out.println(lastele(str, len));
+
+            sc.close();
         }
     }
 }

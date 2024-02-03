@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Component Example</title>
+  <style>
+    .yellow {
+        text-align: center;
+        color: gold;
+    }
+    .star- {
+        text-align: center;
+    }
+    .star-container {
+        display: flex;
+        justify-content: center;
+    }
+    .star {
+        font-size: 2rem;
+        color: #ccc;
+        margin: 0 0.2rem;
+    }
+    .star:hover {
+        color: gold;
+    }
+    .rating {
+        text-align: center;
+    }
+      
+  </style>
+</head>
+<body>
+    <div class="star-">
+        <h1>Star Component</h1>
+        <div class="star-container">
+            <div class="star">&#9733;</div>
+            <div class="star">&#9733;</div>
+            <div class="star">&#9733;</div>
+            <div class="star">&#9733;</div>
+            <div class="star">&#9733;</div>
+        </div>
+        <h4 class="rating">Rating :</h4>
+        
+    </div>
+
+    <script>
+        var stars = document.querySelectorAll('.star');
+        star.addEventListener('click', function() {
+            star.classList.toggle('yellow');
+        })
+    </script>
+   
+
+</body>
+</html>

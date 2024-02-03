@@ -64,5 +64,6 @@ class GoodPair {
         
         String result = checkGoodPair(A, B);
         System.out.println(result);
+        sc.close();
     }
 }

@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class rearrange_the_array {
 
     public static int[] rearrange(int[] arr) {
@@ -36,14 +34,6 @@ public class rearrange_the_array {
 
     public static void main(String[] args) {
 
-        // Scanner sc = new Scanner(System.in);
-
-        // int size = sc.nextInt();
-        // int[] arr = new int[size];
-        // for (int i = 0; i < size; i++) {
-            
-            //     arr[i] = sc.nextInt();
-            // }
             int arr[] = {8, 9, 11, 2, 3, 1, 5, 6, 4, 7};
 
         int[] ans = rearrange(arr);
