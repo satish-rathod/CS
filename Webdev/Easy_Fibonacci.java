@@ -1,3 +1,0 @@
-class Easy_Fibonacci {
-    
-}
