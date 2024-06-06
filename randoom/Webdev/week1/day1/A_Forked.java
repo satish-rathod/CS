@@ -1,18 +1,20 @@
 import java.util.Scanner;
 
 class A_Forked {
-
-    public static int funt(int a,int b,int xk,int yk,int xq,int yq)
-    {
-        int dx = Math.abs(xk-xq);
-        int dy = Math.abs(yk-yq);
-
-        if((dx+dy)%2==0)
+    static int funt(int a, int b, int xk, int yk, int xq, int yq) {
+        if(xk == xq && yk == yq) {
             return 0;
+        }
 
-        if            
+        if(xk == xq || yk == yq) {
+            return 1;
+        }
 
-        
+        if(Math.abs(xk - xq) == Math.abs(yk - yq)) {
+            return 1;
+        }
+
+        return 2;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -29,7 +31,7 @@ class A_Forked {
             int xq = sc.nextInt();
             int yq = sc.nextInt();
 
-            System.out.println(funt(a,b,xk,yk,xq,yq);
+            System.out.println(funt(a,b,xk,yk,xq,yq)
 );
         }
     }

@@ -1,3 +1,4 @@
+package randoom;
 import java.util.Scanner;
 
 public class A_Entertainment_in_MAC {

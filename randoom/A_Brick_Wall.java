@@ -1,4 +1,6 @@
-import java.util.*;
+package randoom;
+
+import java.util.Scanner;
 class A_Brick_Wall {
 
     public static int fun(int m, int n)

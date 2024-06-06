@@ -1,5 +1,3 @@
-package contests.leetcontest;
-
 class Solution {
     public int minChanges(String s) {
 

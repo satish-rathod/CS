@@ -4,7 +4,32 @@ class C_1_Parental_Favoritism_Easy_Version {
     
     public static int path (int l1, int r1, int l2, int r2)
     {
-        
+        if(l1 == r1 && l2 == r2)
+        {
+            return 0;
+        }
+
+        if(l1 == r1 || l2 == r2)
+        {
+            return 1;
+        }
+
+        if(l1 == l2 || r1 == r2)
+        {
+            return 1;
+        }
+
+        if(l1 == r2)
+        {
+            return 1;
+        }
+
+        if(r1 == l2)
+        {
+            return 1;
+        }
+
+        return 2;   
     }
 
     public static void main(String[] args) {
