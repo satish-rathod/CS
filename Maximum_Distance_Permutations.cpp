@@ -20,7 +20,7 @@ void solve(int N) {
         cout << A[i] << (i == N - 1 ? "\n" : " ");
     }
     for (int i = 0; i < N; ++i) {
-        cout << B[i] << (i == N - 1 ? "\n" : " ");
+        cout << B[i] << (i == N - 1 ? "\n" : " ");  
     }
 }
 
